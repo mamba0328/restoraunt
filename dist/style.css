@@ -13,6 +13,7 @@ body {
     height: 100%;
     display: flex;
     flex-direction: column;
+    align-items: center;
 }
 
 header { 
@@ -22,6 +23,7 @@ header {
     align-items: center;
     background-color: rgb(250, 215, 215);
     height: 5%;
+    width: 100%;
 }
 
 #infoWrapper {
@@ -62,3 +64,81 @@ footer {
     align-items: center;
     margin: 5% 0 0 10%;
 }
+
+#menu {
+    display: flex;
+    text-align: center;
+    width: 90%;
+    margin-top: 5%;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.dishHolder {
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+ border: 1px solid salmon;
+ width: 25%;
+ margin: 3% 3%;
+}
+
+.dishHolder img { 
+    width: 95%;
+    height: 95%;
+}
+
+.dishFooter { 
+ display: flex;
+ flex-direction: row;
+ width: 100%;
+ justify-content: space-around;
+}
+
+#contacts { 
+    background-color: wheat;
+    display: flex;
+    width: 90%;
+    height: 90%;
+}
+
+#numbers { 
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 100%;
+    justify-content: space-around;
+}
+
+#location { 
+    margin-left: 2%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#location img { 
+    width: 80%;
+}
+
+#location h3 { 
+    margin-left: 30%;
+}
+
+#topNumbers { 
+    display: flex;
+    justify-content: space-around;
+}
+
+#bottomNumbers { 
+    display: flex;
+    align-items: center;
+
+}
+
+#selfie{ 
+ width: 30%;
+ margin-left: 30%;
+}
+
