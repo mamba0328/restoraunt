@@ -2,10 +2,15 @@
     box-sizing: border-box;
 }
 
+html { 
+    overflow-y: scroll;
+}
+
 body { 
     width: 100%;
-    height: 100%;
+    height: 105%;
     margin: 0;
+    position: absolute; 
 }
 
 #content{ 
@@ -35,6 +40,7 @@ header {
 }
 
 footer { 
+  display: inline-block;
   background-color: palegoldenrod ; 
   width: 100%;
   height: 5%;
@@ -141,4 +147,3 @@ footer {
  width: 30%;
  margin-left: 30%;
 }
-
